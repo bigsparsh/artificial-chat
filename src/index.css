@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+	transition-duration: 0.5s;
+}
+::-webkit-scrollbar {
+	width: 5px;
+	display: grid;
+	place-items: center;
+	@apply bg-none;
+	padding-block: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-amber-600;
+
+	border-radius: 10px;
+}
